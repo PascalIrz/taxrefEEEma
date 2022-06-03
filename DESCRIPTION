@@ -1,0 +1,19 @@
+Package: taxrefEEEma
+Type: Package
+Title: Traiter les versions successives de TAXREF
+Version: 0.0.9000
+Author: Pascal Irz <pascal.irz@ofb.gouv.fr>
+Maintainer: Pascal Irz <pascal.irz@ofb.gouv.fr>
+Description: Traiter les versions successives de TAXREF pour extraire les statistiques de non autochtones.
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Imports: data.table,
+    dplyr,
+    magrittr,
+    purrr,
+    tidyr
+Suggests: 
+    knitr,
+    rmarkdown
